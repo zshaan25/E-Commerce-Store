@@ -18,15 +18,17 @@ const App = () => {
           <CategoryCard title="Electronics" icon="📱" />
           <CategoryCard title="Clothing" icon="👗" />
           <CategoryCard title="Books" icon="📚" />
+          <CategoryCard title="Watches" icon="⌚" />
         </GridLayout>
       </SectionContainer>
       <HeroBanner />
       <GridLayout/>
       <SectionContainer title="Featured Products">
         <GridLayout>
-          <ProductCard name="Smartphone" price="799" image="/images/phone.jpg" />
+          <ProductCard name="Smartphone" price="799" image="/images/Phone.jpg " />
           <ProductCard name="Sneakers" price="129" image="/images/shoes.jpg" />
-          <ProductCard name="Backpack" price="49" image="/images/bag.jpg" />
+          <ProductCard name="Backpack" price="49" image="/images/Bag.jpg" />
+          <ProductCard name="Shirts" price="25" image="/images/Shirts.jpg" />
         </GridLayout>
       </SectionContainer>
       <CategoryCard/>
